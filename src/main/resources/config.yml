@@ -1,0 +1,127 @@
+siege-points-to-win: 2
+squatter-siege-points-to-win: 1
+
+battle-duration-seconds: 3600
+prep-seconds: 0
+tick-interval-ticks: 20
+mercy-lead: 450
+attacker-min-points: 1
+
+cap-radius: 6
+cap-capture-seconds: 20.0
+cap-tiers:
+  core:
+    attacker-value: 10.0
+    defender-value: 1.0
+  mid:
+    attacker-value: 5.0
+    defender-value: 5.0
+  exterior:
+    attacker-value: 1.0
+    defender-value: 10.0
+idle-hold-multiplier: 1.0
+
+tier-citizen-multiplier: 1.0
+tier-nation-multiplier: 0.75
+tier-ally-multiplier: 0.5
+
+max-allies-per-side: 2
+
+eligibility-min-days-in-land: 7
+eligibility-min-playtime-hours: 8
+unknown-trust-eligible: false
+
+attacker-place-allow:
+  - DIRT
+  - COBBLESTONE
+  - SCAFFOLDING
+  - LADDER
+  - TNT
+attacker-break-mode: deny-list
+attacker-break-allow:
+  - DIRT
+  - COBBLESTONE
+
+defender-place-mode: allow-all
+defender-place-allow: []
+defender-break-mode: allow-all
+defender-break-allow: []
+defender-container-access: true
+
+allow-explosions: true
+
+max-gear-tier: IRON
+allowed-gear-materials:
+  - LEATHER_HELMET
+  - LEATHER_CHESTPLATE
+  - LEATHER_LEGGINGS
+  - LEATHER_BOOTS
+  - CHAINMAIL_HELMET
+  - CHAINMAIL_CHESTPLATE
+  - CHAINMAIL_LEGGINGS
+  - CHAINMAIL_BOOTS
+  - GOLDEN_HELMET
+  - GOLDEN_CHESTPLATE
+  - GOLDEN_LEGGINGS
+  - GOLDEN_BOOTS
+  - IRON_HELMET
+  - IRON_CHESTPLATE
+  - IRON_LEGGINGS
+  - IRON_BOOTS
+  - TURTLE_HELMET
+  - WOODEN_SWORD
+  - STONE_SWORD
+  - GOLDEN_SWORD
+  - IRON_SWORD
+  - WOODEN_AXE
+  - STONE_AXE
+  - GOLDEN_AXE
+  - IRON_AXE
+  - BOW
+  - CROSSBOW
+  - TRIDENT
+allowed-extra-armor:
+  - steel_helmet
+  - steel_chestplate
+  - steel_leggings
+  - steel_boots
+  - steel_sword
+ban-ender-pearls: true
+
+vassal-tax-upkeep-fraction: 0.5
+vassal-duration-days: 60
+vassal-tax-check-interval-seconds: 3600
+vassal-tax-per-chunk: 1.0
+tax-shortfall-mode: partial
+
+eject-to: spawn
+
+boss-bar-enabled: true
+particles-enabled: true
+
+beacon:
+  enabled: true
+  base-block: IRON_BLOCK
+  beam-colors:
+    neutral: WHITE
+    attacker: RED
+    defender: LIME
+    contested: PURPLE
+  preview-seconds: 60
+
+overpop-ratio: 1.0
+overpop-multiplier: 0.25
+
+freeze-countdown-seconds: 15
+freeze-attacker-extra-seconds: 30
+
+record-battles: true
+recording-chunk-padding: 3
+recorder-start-command: "paperflashback start chunks from {minX} {minZ} to {maxX} {maxZ} in {world} named {name}"
+recorder-stop-command: "paperflashback stop all save=true"
+
+staging-min-distance-chunks: 3
+staging-auto-cleanup: true
+
+messages:
+  prefix: "&c[War] &r"
