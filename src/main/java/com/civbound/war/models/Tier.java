@@ -1,4 +1,4 @@
-package com.civbound.war;
+package com.civbound.war.models;
 
 public enum Tier {
     CITIZEN,
