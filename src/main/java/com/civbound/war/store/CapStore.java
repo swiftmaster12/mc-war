@@ -1,4 +1,4 @@
-package com.civbound.war;
+package com.civbound.war.store;
 
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.configuration.file.FileConfiguration;
