@@ -1,4 +1,4 @@
-package com.civbound.war;
+package com.civbound.war.state;
 
 import me.angeschossen.lands.api.events.LandTrustPlayerEvent;
 import org.bukkit.configuration.file.FileConfiguration;
