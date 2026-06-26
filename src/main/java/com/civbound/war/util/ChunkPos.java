@@ -1,4 +1,4 @@
-package com.civbound.war;
+package com.civbound.war.util;
 
 import org.bukkit.Chunk;
 import org.bukkit.Location;
