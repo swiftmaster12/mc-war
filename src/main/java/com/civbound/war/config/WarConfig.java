@@ -1,4 +1,4 @@
-package com.civbound.war;
+package com.civbound.war.config;
 
 import org.bukkit.Material;
 import org.bukkit.configuration.file.FileConfiguration;
