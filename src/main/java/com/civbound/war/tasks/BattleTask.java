@@ -1,4 +1,4 @@
-package com.civbound.war;
+package com.civbound.war.tasks;
 
 import org.bukkit.Location;
 import org.bukkit.Server;
