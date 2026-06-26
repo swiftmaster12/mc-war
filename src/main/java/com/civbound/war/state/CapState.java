@@ -1,4 +1,4 @@
-package com.civbound.war.models;
+package com.civbound.war.state;
 
 public final class CapState {
 
