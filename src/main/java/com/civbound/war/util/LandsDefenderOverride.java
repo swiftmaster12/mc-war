@@ -1,4 +1,4 @@
-package com.civbound.war;
+package com.civbound.war.util;
 
 import me.angeschossen.lands.api.land.Land;
 import org.bukkit.Location;
