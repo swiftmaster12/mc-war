@@ -1,4 +1,4 @@
-package com.civbound.war;
+package com.civbound.war.managers;
 
 import org.bukkit.Color;
 import org.bukkit.Location;
