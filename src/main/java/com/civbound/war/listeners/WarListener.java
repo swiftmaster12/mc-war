@@ -1,4 +1,4 @@
-package com.civbound.war;
+package com.civbound.war.listeners;
 
 import org.bukkit.Location;
 import org.bukkit.Material;
