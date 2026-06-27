@@ -16,8 +16,4 @@ A Bukkit/Paper plugin implementing a best-of-3 siege-point war system for Minecr
 - Paper 1.20+
 - [Lands](https://www.spigotmc.org/resources/lands.53313/)
 
-## Building
 
-```bash
-mvn clean package
-```
