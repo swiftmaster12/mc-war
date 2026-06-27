@@ -1,14 +1,14 @@
-name: CivboundWar
+name: mc-war
 version: '${project.version}'
 main: com.civbound.war.CivboundWar
 api-version: "1.21"
-author: Civbound
-description: Civbound War v2 - best-of-3 siege-point war over admin-defined capture points, hooked into Lands.
+author: Swift_Master
+description: War is the best-of-3 siege-point match over admin-defined capture points, hooked into Lands.
 depend: [Lands]
 softdepend: [PaperFlashback, ProtocolLib, Nexo]
 commands:
   war:
-    description: Manage Civbound wars (create/start/stop/status/map/preview/cap/ally/staging/vassal).
+    description: Manage wars (create/start/stop/status/map/preview/cap/ally/staging/vassal).
     usage: |
       /war create <name> <attackerLand> <defenderLand> - create a named war (register allies/staging first)
       /war start <name> | <attackerLand> <defenderLand> - start a war / next battle
@@ -24,9 +24,9 @@ commands:
       /war reload - reload config.yml
     aliases: [war]
 permissions:
-  civboundwar.admin:
+  war.admin:
     description: Manage wars, caps, allies, vassals.
     default: op
-  civboundwar.status:
+  war.status:
     description: View war status and map.
     default: true
